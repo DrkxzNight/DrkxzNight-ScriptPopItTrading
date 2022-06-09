@@ -1,0 +1,166 @@
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+local Window = Library.CreateLib("PopIt Trading (🌟Free Version🌟) -  •DrkxzNight•#5855 💬", "Synapse")
+local Tab = Window:NewTab("⭐ NFTS ⭐")
+local Section = Tab:NewSection("NFTS with Money! [♥️ Fixed ♥️] ")
+Section:NewButton("Buy XoX! [1B 💵]", "Buy XoX[1B 💵] ", function() local args = { [1] = "XOX" }
+game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
+truwe("Clicked")
+end)
+Section:NewButton("Buy Lenay! [1B 💵]", "Buy Lenay[1B 💵] ", function() local args = { [1] = "Lenay" }
+game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
+truwe("Clicked")
+end)
+Section:NewButton("Buy Mommeh Long Legs!", "Mommeh Long Legs!", function() local args = { [1] = "Mommeh Long Legs" }
+game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
+truwe("Clicked")
+end)
+Section:NewButton("Buy TradingBen!", "Trading Ben!", function() local args = { [1] = "Trading Ben" }
+game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
+truwe("Clicked")
+end)
+Section:NewButton("Buy Munneh!", "Munneh!", function() local args = { [1] = "Munneh" }
+game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
+truwe("Clicked")
+end)
+
+-- PLAYER SCRIPTS
+
+-- Tabs
+
+local Tab1 = Window:NewTab("⚙ Player Scripts ⚙")
+local Tab1Section = Tab1:NewSection("Player Scripts - (Fixing Small Things!)")
+
+-- Buttons/Windows/Idk
+
+Tab1Section:NewButton("Inf Jumps", "Enables Inf Jumps", function()
+    local InfiniteJumpEnabled = true
+game:GetService("UserInputService").JumpRequest:connect(function()
+	if InfiniteJumpEnabled then
+		game:GetService"Players".LocalPlayer.Character:FindFirstChildOfClass'Humanoid':ChangeState("Jumping")
+	end
+end)
+end)
+
+Tab1Section:NewToggle("120 = 80 Fov", "Changes Fov", function(state)
+    if state then
+        game.Workspace.CurrentCamera.FieldOfView = 120
+    else
+        game.Workspace.CurrentCamera.FieldOfView = 80
+    end
+end)
+
+Tab1Section:NewSlider("Speed/WalkSpeed", "Sussy Speed", 250, 120, function(v)
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = v
+end)
+-- Normal Shop
+
+local Tab = Window:NewTab("💲 NormalShop 💲")
+local Section = Tab:NewSection("Normal Shop Simple. ")
+Section:NewButton("Buy PopItRainbow!", "PopItRainbow!", function() local args = { [1] = "Pop It Rainbow!" }
+game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
+truwe("Clicked")
+end)
+Section:NewButton("Buy RagdollCrown!", "RagdollCrown!", function() local args = { [1] = "Ragdoll Crown" }
+game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
+truwe("Clicked")
+end)
+Section:NewButton("Buy CrystalRainbow!", "RainbowCrystal!", function() local args = { [1] = "Crystal Rainbow" }
+game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
+truwe("Clicked")
+end)
+Section:NewButton("Buy Lolly Rainbow!", "Rainbow Lolly!", function() local args = { [1] = "Lolly Rainbow" }
+game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
+truwe("Clicked")
+end)
+Section:NewButton("Buy Amongus Raibow!", "IDK SO HARD TO CODE!", function() local args = { [1] = "Amogus Rainbow" }
+game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
+truwe("Clicked")
+end)
+
+-- Teleports
+
+local Tab = Window:NewTab("🔎 Teleport 🔍")
+local Section = Tab:NewSection("Right")
+Section:NewButton("Platform 1", "ButtonInfo", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(221.47657775878906, 26.799846649169922, -208.41799926757812))
+end)
+Section:NewButton("Platform 2", "ButtonInfo", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(180.80093383789062, 26.977828979492188, -207.95724487304688))
+end)
+Section:NewButton("Platform 3", "ButtonInfo", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(140.62301635742188, 26.799846649169922, -208.29974365234375))
+end)
+Section:NewButton("Platform 4", "ButtonInfo", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(100.86707305908203, 26.833974838256836, -207.85250854492188))
+end)
+Section:NewButton("Platform 5", "ButtonInfo", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(61.505615234375, 26.046207427978516, -208.05682373046875))
+end)
+Section:NewButton("Platform 6", "ButtonInfo", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(21.02322769165039, 26.33940887451172, -208.15704345703125))
+end)
+Section:NewButton("Platform 7", "ButtonInfo", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(-18.90589714050293, 26.762311935424805, -208.4942626953125))
+end)
+
+-- Left
+
+local Section = Tab:NewSection("Left")
+Section:NewButton("Platform 1(left)", "ButtonInfo", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(221.38113403320312, 26.967214584350586, -327.77911376953125))
+end)
+
+Section:NewButton("Platform 2(left)", "ButtonInfo", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(181.052978515625, 26.721370697021484, -327.0597839355469))
+end)
+
+Section:NewButton("Platform 3(left)", "ButtonInfo", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(140.8793182373047, 26.523544311523438, -326.21429443359375))
+end)
+
+Section:NewButton("Platform 4(left)", "ButtonInfo", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(101.48982238769531, 26.046207427978516, -327.08953857421875))
+end)
+
+Section:NewButton("Platform 5(left)", "ButtonInfo", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(20.794857025146484, 25.79054069519043, -327.5013122558594))
+end)
+
+Section:NewButton("Platform 6(left)", "ButtonInfo", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(-18.6514835357666, 26.97749900817871, -326.1947021484375)) 
+end)
+
+-- Scam gui
+
+local Tab     = Window:NewTab("🌐 Scam script 🌐")
+local Section = Tab:NewSection("scam working Not Fixed and Slow! - More Coming Soon")
+Section:NewButton("Scam 1V (OLD)", "Scam ppl", function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/imaboy12321/shhh/main/gaey'),true))()
+end)
+
+
+-- Troll Scripts
+local Tab     = Window:NewTab("Auto drop items")
+local Section = Tab:NewSection("Drop items :)")
+Section:NewButton("Drop banana (Any)", "Drop banana", function()
+getgenv().item_name = "The banana" -- Change this to what you want to autodupe
+loadstring(game:HttpGet('https://raw.githubusercontent.com/THEBESTHAGEG/LOLOLO/main/README.md'))()
+end)
+Section:NewButton("Drop Ben (15)", "Drop Ben", function()
+getgenv().item_name = "Trading Ben" -- Change this to what you want to autodupe
+loadstring(game:HttpGet('https://raw.githubusercontent.com/THEBESTHAGEG/LOLOLO/main/README.md'))()
+end)
+Section:NewButton("Drop Munneh (15)", "Drop Munneh", function()
+getgenv().item_name = "Munneh" -- Change this to what you want to autodupe
+loadstring(game:HttpGet('https://raw.githubusercontent.com/THEBESTHAGEG/LOLOLO/main/README.md'))()
+end)Section:NewButton("Drop Mommeh Long Legs (15)", "Drop Mommeh Long Legs", function()
+getgenv().item_name = "Mommeh Long Legs" -- Change this to what you want to autodupe
+loadstring(game:HttpGet('https://raw.githubusercontent.com/THEBESTHAGEG/LOLOLO/main/README.md'))()
+end)
+Section:NewButton("Drop XoX (15)", "Drop XoX", function()
+getgenv().item_name = "XoX" -- Change this to what you want to autodupe
+loadstring(game:HttpGet('https://raw.githubusercontent.com/THEBESTHAGEG/LOLOLO/main/README.md'))()
+end)Section:NewButton("Drop Lenay (15)", "Drop Lenay", function()
+getgenv().item_name = "Lenay" -- Change this to what you want to autodupe
+loadstring(game:HttpGet('https://raw.githubusercontent.com/THEBESTHAGEG/LOLOLO/main/README.md'))()
+end)
